@@ -1,0 +1,14 @@
+D:\Etec\codes\C#\FirstCode\bin\Debug\net10.0\FirstCode.exe
+D:\Etec\codes\C#\FirstCode\bin\Debug\net10.0\FirstCode.deps.json
+D:\Etec\codes\C#\FirstCode\bin\Debug\net10.0\FirstCode.runtimeconfig.json
+D:\Etec\codes\C#\FirstCode\bin\Debug\net10.0\FirstCode.dll
+D:\Etec\codes\C#\FirstCode\bin\Debug\net10.0\FirstCode.pdb
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\FirstCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\FirstCode.AssemblyInfoInputs.cache
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\FirstCode.AssemblyInfo.cs
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\FirstCode.csproj.CoreCompileInputs.cache
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\FirstCode.dll
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\refint\FirstCode.dll
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\FirstCode.pdb
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\FirstCode.genruntimeconfig.cache
+D:\Etec\codes\C#\FirstCode\obj\Debug\net10.0\ref\FirstCode.dll
