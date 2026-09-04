@@ -1,12 +1,14 @@
 # MicroSoftLearn — C# Studies
 
-> Repository documenting my progression while learning **C# and .NET fundamentals**.
+> Repository documenting my progression while learning **C# and software-development fundamentals**.
 
 ## 📚 About
 
-This repository contains exercises and small experiments created while studying C#. It is intentionally a learning repository: the goal is to document progression from programming fundamentals toward practical software and tooling projects.
+This repository contains exercises and small experiments created while studying C#. It is intentionally a **learning/code repository**, not a finished application.
 
-## 🛠️ Current Focus
+The purpose is to show how I am building programming fundamentals through actual code and progressively more structured exercises.
+
+## 🧠 Current Topics
 
 - Program structure
 - Variables and data types
@@ -18,25 +20,25 @@ This repository contains exercises and small experiments created while studying 
 - Object-oriented programming
 - Collections
 - Exception handling
-- Writing reusable utilities
+- Reusable utilities
 
-## 🎯 Long-Term Direction
+## 🎯 Why C#
 
-I am studying C# to strengthen my **software-development and technical problem-solving skills**, complementing my background in 3D and digital art.
+I am studying C# to strengthen my **software-development, programming and problem-solving skills**.
 
-The broader goal is to become comfortable building reliable tools and applications, while keeping **Python + Blender** as a central part of my Technical Art workflow.
+This complements my background in 3D and digital art, while keeping programming as an independent technical skill rather than presenting every project as Technical Art.
 
 ## 📁 Structure
 
 ```text
 MicroSoftLearn/
-└── C#/
+└── C#/ 
     ├── FirstCode.slnx
     └── FirstCode/
 ```
 
 ## 📈 Repository Status
 
-This is a learning repository rather than a flagship portfolio project. More complete C# applications and tools will be separated into dedicated projects as they are developed.
+This repository records my learning progression. When a C# project becomes sufficiently complete, it can be separated into its own dedicated repository with a focused README and demonstration.
 
 **Luca Toniolo — Lvc4br**
