@@ -2,7 +2,6 @@
 
 Repositório de aprendizagem de C# e fundamentos de programação. O conteúdo atual é um aplicativo de console .NET, não uma aplicação web.
 
-## Estrutura
 ## Arquitetura
 
 O projeto é um executável de console: o SDK restaura dependências, compila o código-fonte e produz os artefatos localmente. Não existe camada web, API ou banco de dados.
@@ -15,6 +14,7 @@ flowchart TD
     B -. gera localmente .-> E[bin/ e obj/ ignorados]
 ```
 
+## Estrutura
 
 - `C#/FirstCode.slnx`: solução .NET.
 - `C#/FirstCode/FirstCode.csproj`: projeto executável configurado para `net10.0`.
@@ -35,7 +35,7 @@ dotnet build
 
 ## Escopo
 
-É um projeto educacional de console. Não há API, banco de dados, interface gráfica ou suíte de testes documentada. O workflow em `.github/workflows/ci.yml` compila a solução com .NET 10 em pushes e pull requests; a execução remota do workflow ainda precisa confirmar o resultado.
+É um projeto educacional de console. Não há API, banco de dados, interface gráfica ou suíte de testes documentada. O workflow em `.github/workflows/ci.yml` compila a solução com .NET 10 em pushes e pull requests.
 
 Relacionado: [LV_Portfolio](https://github.com/Lvc4br/LV_Portfolio).
 
