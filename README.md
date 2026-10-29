@@ -1,44 +1,30 @@
-# MicroSoftLearn — C# Studies
+# MicroSoftLearn — Estudos de C#
 
-> Repository documenting my progression while learning **C# and software-development fundamentals**.
+Repositório de aprendizagem de C# e fundamentos de programação. O conteúdo atual é um aplicativo de console .NET, não uma aplicação web.
 
-## 📚 About
+## Estrutura
 
-This repository contains exercises and small experiments created while studying C#. It is intentionally a **learning/code repository**, not a finished application.
+- `C#/FirstCode.slnx`: solução .NET.
+- `C#/FirstCode/FirstCode.csproj`: projeto executável configurado para `net10.0`.
+- `C#/FirstCode/Program.cs`: exemplos comentados de tipos de dados, variáveis, console, data/hora e operadores.
 
-The purpose is to show how I am building programming fundamentals through actual code and progressively more structured exercises.
+A árvore também contém diretórios `bin/` e `obj/`, gerados pelo .NET. Em geral, esses artefatos devem ficar fora do versionamento; o código-fonte e os arquivos de projeto bastam para reconstruir a aplicação.
 
-## 🧠 Current Topics
+## Requisitos e execução
 
-- Program structure
-- Variables and data types
-- Console input/output
-- Arithmetic and logical operations
-- Conditionals
-- Loops
-- Methods and parameters
-- Object-oriented programming
-- Collections
-- Exception handling
-- Reusable utilities
+Instale o .NET SDK compatível com .NET 10 e execute:
 
-## 🎯 Why C#
-
-I am studying C# to strengthen my **software-development, programming and problem-solving skills**.
-
-This complements my background in 3D and digital art, while keeping programming as an independent technical skill rather than presenting every project as Technical Art.
-
-## 📁 Structure
-
-```text
-MicroSoftLearn/
-└── C#/ 
-    ├── FirstCode.slnx
-    └── FirstCode/
+```bash
+cd "C#/FirstCode"
+dotnet restore
+dotnet run
+dotnet build
 ```
 
-## 📈 Repository Status
+## Escopo
 
-This repository records my learning progression. When a C# project becomes sufficiently complete, it can be separated into its own dedicated repository with a focused README and demonstration.
+É um projeto educacional de console. Não há API, banco de dados, interface gráfica ou suíte de testes documentada. Recomenda-se adicionar um `.gitignore` adequado ao .NET e deixar de versionar `bin/` e `obj/`.
 
-**Luca Toniolo — Lvc4br**
+Relacionado: [LV_Portfolio](https://github.com/Lvc4br/LV_Portfolio).
+
+**Autor:** Luca Toniolo — [@Lvc4br](https://github.com/Lvc4br)
