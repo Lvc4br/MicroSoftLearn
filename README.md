@@ -20,7 +20,7 @@ flowchart TD
 - `C#/FirstCode/FirstCode.csproj`: projeto executável configurado para `net10.0`.
 - `C#/FirstCode/Program.cs`: exemplos comentados de tipos de dados, variáveis, console, data/hora e operadores.
 
-A árvore também contém diretórios `bin/` e `obj/`, gerados pelo .NET. Em geral, esses artefatos devem ficar fora do versionamento; o código-fonte e os arquivos de projeto bastam para reconstruir a aplicação.
+Os artefatos `bin/` e `obj/` que estavam versionados foram removidos. O `.gitignore` agora impede que saídas de build, arquivos locais de IDE e logs sejam adicionados novamente. Esses arquivos são recriados pelo SDK ao compilar.
 
 ## Requisitos e execução
 
@@ -35,7 +35,7 @@ dotnet build
 
 ## Escopo
 
-É um projeto educacional de console. Não há API, banco de dados, interface gráfica ou suíte de testes documentada. Recomenda-se adicionar um `.gitignore` adequado ao .NET e deixar de versionar `bin/` e `obj/`.
+É um projeto educacional de console. Não há API, banco de dados, interface gráfica ou suíte de testes documentada. O workflow em `.github/workflows/ci.yml` compila a solução com .NET 10 em pushes e pull requests; a execução remota do workflow ainda precisa confirmar o resultado.
 
 Relacionado: [LV_Portfolio](https://github.com/Lvc4br/LV_Portfolio).
 
