@@ -3,6 +3,18 @@
 Repositório de aprendizagem de C# e fundamentos de programação. O conteúdo atual é um aplicativo de console .NET, não uma aplicação web.
 
 ## Estrutura
+## Arquitetura
+
+O projeto é um executável de console: o SDK restaura dependências, compila o código-fonte e produz os artefatos localmente. Não existe camada web, API ou banco de dados.
+
+```mermaid
+flowchart TD
+    A[Program.cs] --> B[.NET SDK]
+    B --> C[Compilação]
+    C --> D[Aplicação de console]
+    B -. gera localmente .-> E[bin/ e obj/ ignorados]
+```
+
 
 - `C#/FirstCode.slnx`: solução .NET.
 - `C#/FirstCode/FirstCode.csproj`: projeto executável configurado para `net10.0`.
